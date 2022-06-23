@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),rubens)
+ifeq ($(TARGET_DEVICE),xaga)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

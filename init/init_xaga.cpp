@@ -49,5 +49,5 @@ void model_property_override(const std::string& device, const std::string& model
 }
 
 void vendor_load_properties() {
-    model_property_override("rubens", "Redmi K50");
+    model_property_override("xaga", "xaga");
 }

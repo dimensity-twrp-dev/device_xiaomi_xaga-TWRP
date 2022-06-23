@@ -108,6 +108,8 @@ alias of:N*T*Cmediatek,mt6983-spmiC* spmi_mtk_pmif
 alias of:N*T*Consemi,fan53870 fan53870
 alias of:N*T*Consemi,fan53870C* fan53870
 alias i2c:fan53870-regulator fan53870
+alias of:N*T*Cl16_42_02_0a_dsc_vdo,lcm panel_l16_42_02_0a_dsc_vdo
+alias of:N*T*Cl16_42_02_0a_dsc_vdo,lcmC* panel_l16_42_02_0a_dsc_vdo
 alias of:N*T*Cmediatek,mtk_ctd mtk_chg_type_det
 alias of:N*T*Cmediatek,mtk_ctdC* mtk_chg_type_det
 alias of:N*T*Cmediatek,charger,pe2 mtk_pep20
@@ -177,7 +179,10 @@ alias of:N*T*Cmediatek,mtk-drm-panel-drv-dpi mediatek_drm_panel_drv
 alias of:N*T*Cmediatek,mtk-drm-panel-drv-dpiC* mediatek_drm_panel_drv
 alias of:N*T*Cmediatek,mtk-drm-panel-drv-dsi mediatek_drm_panel_drv
 alias of:N*T*Cmediatek,mtk-drm-panel-drv-dsiC* mediatek_drm_panel_drv
+alias platform:xagapro_PCM pd_cp_manager
 alias platform:pd_cp_manager pd_cp_manager
+alias of:N*T*Cxagapro_PCM pd_cp_manager
+alias of:N*T*Cxagapro_PCMC* pd_cp_manager
 alias of:N*T*Cpd_cp_manager pd_cp_manager
 alias of:N*T*Cpd_cp_managerC* pd_cp_manager
 alias of:N*T*Cmediatek,extcon-usb extcon_mtk_usb
@@ -199,6 +204,9 @@ alias of:N*T*Cmediatek,mt6373 mtk_spmi_pmic
 alias of:N*T*Cmediatek,mt6373C* mtk_spmi_pmic
 alias of:N*T*Cmediatek,scpsys-disable-unused mtk_pm_domain_disable_unused
 alias of:N*T*Cmediatek,scpsys-disable-unusedC* mtk_pm_domain_disable_unused
+alias i2c:MI_I2C_LCD_BIAS leds_ktz8863a
+alias of:N*T*Cmediatek,MI_I2C_LCD_BIAS leds_ktz8863a
+alias of:N*T*Cmediatek,MI_I2C_LCD_BIASC* leds_ktz8863a
 alias of:N*T*Cmediatek,mt6375-gauge mt6375_battery
 alias of:N*T*Cmediatek,mt6375-gaugeC* mt6375_battery
 alias platform:mt6368-regulator mt6368_regulator
@@ -210,6 +218,10 @@ alias of:N*T*Cmediatek,i2c-leds leds_mtk_disp
 alias of:N*T*Cmediatek,i2c-ledsC* leds_mtk_disp
 alias of:N*T*Cmediatek,mtk-leds leds_mtk_disp
 alias of:N*T*Cmediatek,mtk-ledsC* leds_mtk_disp
+alias platform:xagapro_charger mtk_charger_framework
+alias platform:charger mtk_charger_framework
+alias of:N*T*Cmediatek,xagapro_charger mtk_charger_framework
+alias of:N*T*Cmediatek,xagapro_chargerC* mtk_charger_framework
 alias of:N*T*Cmediatek,charger mtk_charger_framework
 alias of:N*T*Cmediatek,chargerC* mtk_charger_framework
 alias of:N*T*Cmediatek,mt2712-wdt mtk_wdt
@@ -269,6 +281,10 @@ alias of:N*T*Cmediatek,mt6765-cqdma mtk_cqdma
 alias of:N*T*Cmediatek,mt6765-cqdmaC* mtk_cqdma
 alias of:N*T*Cmediatek,charger,pe mtk_pep
 alias of:N*T*Cmediatek,charger,peC* mtk_pep
+alias of:N*T*Clionsemi,ln8000 ln8000_charger
+alias of:N*T*Clionsemi,ln8000C* ln8000_charger
+alias of:N*T*Clionsemi,ln8000-secondary ln8000_charger
+alias of:N*T*Clionsemi,ln8000-secondaryC* ln8000_charger
 alias of:N*T*Cmediatek,mt6375 mt6375
 alias of:N*T*Cmediatek,mt6375C* mt6375
 alias of:N*T*Cmediatek,mt6983-disp-tdshp mediatek_drm
@@ -650,8 +666,6 @@ alias of:N*T*Cparade,ps5170 ps5170
 alias of:N*T*Cparade,ps5170C* ps5170
 alias of:N*T*Cmediatek,charger,pe4 mtk_pep40
 alias of:N*T*Cmediatek,charger,pe4C* mtk_pep40
-alias of:N*T*Cl11a_38_0a_0a_dsc_cmd,lcm panel_l11a_38_0a_0a_dsc_cmd
-alias of:N*T*Cl11a_38_0a_0a_dsc_cmd,lcmC* panel_l11a_38_0a_0a_dsc_cmd
 alias of:N*T*Cmediatek,usb_boost usb_boost
 alias of:N*T*Cmediatek,usb_boostC* usb_boost
 alias of:N*T*Cmediatek,mt6375-auxadc mt6375_auxadc
@@ -660,6 +674,12 @@ alias of:N*T*Cmediatek,low_battery_throttling mtk_low_battery_throttling
 alias of:N*T*Cmediatek,low_battery_throttlingC* mtk_low_battery_throttling
 alias of:N*T*Cmediatek,mt6577-uart 8250_mtk
 alias of:N*T*Cmediatek,mt6577-uartC* 8250_mtk
+alias i2c:sc8561_master sc8561
+alias i2c:sc8561_slave sc8561
+alias of:N*T*Csc8561_master sc8561
+alias of:N*T*Csc8561_masterC* sc8561
+alias of:N*T*Csc8561_slave sc8561
+alias of:N*T*Csc8561_slaveC* sc8561
 alias of:N*T*Cbq28z610 bq28z610
 alias of:N*T*Cbq28z610C* bq28z610
 alias i2c:bq28z610 bq28z610
@@ -687,6 +707,8 @@ alias of:N*T*Cmediatek,common-mmc-v2 mtk_mmc
 alias of:N*T*Cmediatek,common-mmc-v2C* mtk_mmc
 alias of:N*T*Cmediatek,rt-pd-manager rt_pd_manager
 alias of:N*T*Cmediatek,rt-pd-managerC* rt_pd_manager
+alias of:N*T*Cl16_36_02_0b_dsc_vdo,lcm panel_l16_36_02_0b_dsc_vdo
+alias of:N*T*Cl16_36_02_0b_dsc_vdo,lcmC* panel_l16_36_02_0b_dsc_vdo
 alias of:N*T*Cmediatek,xsphy phy_mtk_xsphy
 alias of:N*T*Cmediatek,xsphyC* phy_mtk_xsphy
 alias of:N*T*Cmediatek,mt6983-mml mtk_mml

@@ -1,15 +1,14 @@
 cc_library_static {
-    name: "libinit_rubens",
+    name: "libinit_xaga",
     header_libs: [
         "libbase_headers",
     ],
     cflags: [
         "-Wall",
-//      "-DBUILD_FOR_CMI",
     ],
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_rubens.cpp"],
+    srcs: ["init_xaga.cpp"],
     recovery_available: true,
 }
