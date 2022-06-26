@@ -1,7 +1,28 @@
-### TWRP device tree for Redmi Note 11T Pro (xaga)
+# TWRP device tree for Redmi Note 11T Pro (xaga)
+本twrp/twrp tree同时支持 Redmi Note 11T Pro (xaga)和 Redmi Note 11T pro+ (xagapro)
 
-=========================================
+## 食用
+releases中寻找版本或从代码上编译
 
+### 刷入镜像
+
+#### 使用releases中压缩包的bat文件（推荐）<br>
+当中包含了twrp recovery和官方的recovery文件，<br>
+教程：下载并解压，双击打开bat文件，按照提示操作即可(仅能在bootloader状态（fastboot界面）下使用）<br>
+#### 使用fastboot命令手动刷入
+
+## Todo
+- [ ] 支持解密data
+## 适用范围
+能引导:
+V13.0.9.0.SLOCNXM,V13.0.4.0.SLOCNXM (xaga-twrp-12.1-dev-20220626)
+
+不能引导:
+V13.0.4.1.39.DEV及以后的开发版(xaga-twrp-12.1-dev-20220626)
+
+**其他的未作测试，欢迎添加已测试版本**
+
+===================================================================================<br>
 The Redmi Note 11T Pro (codenamed _"xaga"_) is a high-end, mid-range smartphone from Xiaomi.
 
 It was released in May 2022.
