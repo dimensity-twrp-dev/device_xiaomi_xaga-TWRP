@@ -15,7 +15,7 @@ releases中寻找版本或从代码上编译
 - [ ] 支持解密data
 ## 适用范围
 能引导:
-V13.0.9.0.SLOCNXM,V13.0.4.0.SLOCNXM (xaga-twrp-12.1-dev-20220626)
+V13.0.9.0.SLOCNXM,V13.0.4.0.SLOCNXM 出场版本13.01 (xaga-twrp-12.1-dev-20220626)
 
 不能引导:
 V13.0.4.1.39.DEV及以后的开发版(xaga-twrp-12.1-dev-20220626)
