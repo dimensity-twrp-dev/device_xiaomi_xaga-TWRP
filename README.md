@@ -2,17 +2,19 @@
 本 tree 同时支持 Redmi Note 11T Pro (xaga) 和 Redmi Note 11T pro+ (xagapro)
 
 ## 食用
-releases中寻找版本或从代码上编译
+从 releases 中寻找版本或从代码上编译
 
 ### 刷入镜像
 
 - 使用 releases 中压缩包的 bat 文件 (推荐)
 
--- 当中包含了 TWRP 和官方的 Recovery 文件，
+```
+-- 压缩包内包含了 TWRP 和官方的 Recovery 文件，
 
--- 教程：下载并解压，双击打开bat文件，按照提示操作即可 (仅能在 bootloader 状态下使用)
+-- 下载并解压，双击打开bat文件，按照提示操作即可 (仅能在 bootloader 状态下使用)
+```
 
-- 使用fastboot命令手动刷入
+- 使用 fastboot 命令手动刷入
 
 ## 适用范围
 目前分支能引导版本:
