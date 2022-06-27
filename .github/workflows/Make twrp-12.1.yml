@@ -67,7 +67,7 @@ jobs:
     - name: Clone Device Tree
       run: |
         cd ${GITHUB_WORKSPACE}/workspace
-        git clone https://github.com/YuKongA/device_xiaomi_xaga-TWRP.git -b twrp-12.1 ./device/xiaomi/xaga
+        git clone https://github.com/YuKongA/device_xiaomi_xaga-TWRP.git -b twrp-12.1_5.10.66 ./device/xiaomi/xaga
     - name: Building
       run: |
         cd ${GITHUB_WORKSPACE}/workspace
